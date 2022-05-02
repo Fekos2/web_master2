@@ -1,3 +1,17 @@
-.row.foo {
-    height: 92vh;
+.container-fluid {
+    background-image: url("../../assets/Icono/Rectangle 1.svg");
+    background-repeat: no-repeat;
+    background-position-y:  -12vh;
+}
+
+.row.body {
+    height: 94vh;
+}
+
+button {
+    height: 70px;
+    width: 200px;
+    background-color: #FF6542;
+    color: #000000;
+    border-radius: 50px;
 }
