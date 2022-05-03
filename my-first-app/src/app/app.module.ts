@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { TuHuellaComponent } from './tu-huella/tu-huella.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactComponent } from './contact/contact.component';
     NavBarComponent,
     FooterComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    TuHuellaComponent
   ],
   imports: [
     BrowserModule,
