@@ -1,9 +1,9 @@
 .container-fluid {
     background-image: url("../../assets/Icono/Rectangle 1.svg"), url("../../assets/Icono/Rectangle_verde.svg");
     background-repeat: no-repeat;
-    background-position-y:  -12vh, 26vh;
+    background-position-y:  -12vh, bottom;
 
-    height: 94vh;
+    min-height: 94vh;
 
     color: white;
 
@@ -47,4 +47,8 @@
 
 .flecha {
     height: 30px;
+}
+
+.accordion-body{
+    color: #000000;
 }
