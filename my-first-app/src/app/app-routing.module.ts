@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { TuHuellaComponent } from './tu-huella/tu-huella.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { CompensarComponent } from './compensar/compensar.component';
+import { RegistrarseComponent } from './registrarse/registrarse.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'galeria',
     component: GaleriaComponent
+  },
+  {
+    path: 'compensar',
+    component: CompensarComponent
+  },
+  {
+    path: 'registrarse',
+    component: RegistrarseComponent
   }
 ];
 

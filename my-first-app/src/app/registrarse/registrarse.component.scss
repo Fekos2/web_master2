@@ -2,20 +2,26 @@
     background-image: url("../../assets/Icono/Rectangle 1.svg");
     background-repeat: no-repeat;
     background-position-y:  -12vh;
-}
-
-.row.body {
     height: 94vh;
-    color: #FF6542;
 }
-
+.texto{
+    margin-left: 250px;
+    height: 40px;
+    width: 300px;
+    background-color: #63FF6B;
+    color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
 button {
     height: 70px;
     width: 200px;
     background-color: #FF6542;
     border-radius: 50px;
+    color: black;
 }
 
-a.nav-link{
-    color: #000000;
+label{
+    color: #63FF6B;
 }

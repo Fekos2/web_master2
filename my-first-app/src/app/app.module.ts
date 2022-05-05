@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { TuHuellaComponent } from './tu-huella/tu-huella.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { CompensarComponent } from './compensar/compensar.component';
+import { RegistrarseComponent } from './registrarse/registrarse.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { GaleriaComponent } from './galeria/galeria.component';
     HomeComponent,
     ContactComponent,
     TuHuellaComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    CompensarComponent,
+    RegistrarseComponent
   ],
   imports: [
     BrowserModule,
