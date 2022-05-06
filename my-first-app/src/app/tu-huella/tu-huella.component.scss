@@ -1,13 +1,14 @@
 .container-fluid {
     background-image: url("../../assets/Icono/Rectangle 1.svg"), url("../../assets/Icono/Rectangle_verde.svg");
     background-repeat: no-repeat;
-    background-position-y:  -12vh, bottom;
+    background-position-y:  -38vh, bottom;
 
     min-height: 94vh;
 
     color: white;
 
-    padding-top: 20vh;
+    padding-top: 1vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 .row {
@@ -49,6 +50,21 @@
     height: 30px;
 }
 
-.accordion-body{
-    color: #000000;
+.card {
+    color: black;
+    text-align: justify;
+    border-color: #ff6542;
+}
+
+.t {
+    margin-left: 50px;
+}
+
+h2 {
+    color: #ff6542;
+    font-weight:bold;
+}
+
+.main {
+    margin-top: 90px;
 }

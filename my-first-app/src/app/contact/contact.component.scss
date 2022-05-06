@@ -1,13 +1,15 @@
 .container-fluid {
     background-image: url("../../assets/Icono/Rectangle 1.svg");
     background-repeat: no-repeat;
-    background-position-y:  -12vh;
+    background-position-y:  -38vh;
 
-    height: 94vh;
+    min-height: 94vh;
+    padding-top: 1vh;
+    font-family: 'Raleway', sans-serif;
 }
 
 .row {
-    padding-top: 8%;
+    margin-top:  100px;
 }
 
 .forma {
@@ -15,20 +17,34 @@
 }
 
 .texto {
-    margin-left: 200px;
+    margin-right: auto;
     height: 90px;
     width: 350px;
-    background-color: #FF6542;
+    background-color: #63ff6b;
     color: #000000;
-    border-radius: 50px;
+    border-radius: 20px;
     text-align: center;
     vertical-align: middle;
 }
 
 button {
     height: 70px;
-    width: 200px;
+    width: 190px;
     background-color: #FF6542;
     color: #000000;
     border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    border-color: #FF6542;
+}
+
+textarea {
+    border-color: #FF6542;
+}
+
+label {
+    color: FF6542;
+    font-weight: bold;
 }
