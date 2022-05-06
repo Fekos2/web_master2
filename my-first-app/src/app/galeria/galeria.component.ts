@@ -12,4 +12,13 @@ export class GaleriaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  SeleccionarInterior() {
+    let fotos = document.querySelectorAll(".data-box");
+    for(let i = 0; i < fotos.length; i++) {
+      if(fotos[i].getAttribute("data-item") === "interior")
+      {
+        fotos[i].classList.add("hide");    
+      }
+    }
+  }
 }
